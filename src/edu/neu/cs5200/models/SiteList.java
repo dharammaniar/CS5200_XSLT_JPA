@@ -10,7 +10,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 @XmlAccessorType(value = XmlAccessType.FIELD)
 public class SiteList {
-	@XmlElement(name="director")
+	@XmlElement(name="site")
 	private List<Site> sites;
 
 	public SiteList() {

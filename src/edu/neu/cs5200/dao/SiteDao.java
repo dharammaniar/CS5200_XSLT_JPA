@@ -82,14 +82,13 @@ public class SiteDao {
 			System.out.println(site1.getName());
 		}
 		
-		/*SiteList theSiteList = new SiteList();
+		SiteList theSiteList = new SiteList();
 		theSiteList.setSites(siteList);
 		
-		dao.exportSiteDatabaseToXmlFile(theSiteList, "xml/siteList.xml");
+		dao.exportSiteDatabaseToXmlFile(theSiteList, "xml/sites.xml");
 		
-		dao.convertXmlFileToOutputFile("xml/siteList.xml", "xml/sites.html", "xml/sites2html.xslt");
-		dao.convertXmlFileToOutputFile("xml/siteList.xml", "xml/towers.html", "xml/sites2tower.xslt");
-		dao.convertXmlFileToOutputFile("xml/siteList.xml", "xml/equipment.html", "xml/sites2equipment.xslt");*/
+		dao.convertXmlFileToOutputFile("xml/sites.xml", "xml/sites.html", "xml/sites2html.xslt");
+		dao.convertXmlFileToOutputFile("xml/sites.xml", "xml/equipment.html", "xml/sites2equipment.xslt");
 	}
 
 }
